@@ -15,7 +15,7 @@ public class SelectTest {
 		  private Session session;
 		  private Transport transport;
 		  private String username = "731390924@qq.com";
-		  private String password = "111";//因为要提交慕课，所以把密码这一段给换了，防止被盗号
+		  private String password = "********";//因为要提交慕课，所以把密码这一段给换了，防止被盗号
 		  private String smtpServer = "smtp.qq.com";//QQ邮箱的接收服务器
 		  public void init()throws Exception{
 			//设置属性
